@@ -75,24 +75,28 @@ section {
 }
 
 .brand {
-    size: 170x80px;
+    size: 170px;
+    height: 85px;
     margin-left: -15px;
     margin-right: 60px;
 }
 
 .logo {
-    max-width: 100% height auto;
+    max-width: 100%; height: auto;
 }
 
 .search-box {
-    box-sizing: 330x30px padding 6px 6px 12px 12px;
-    border-color: #a0a0a0;
-}
+    width: 330px;
+    height: 30px;
+    padding: 6px 12px;
+    border: 1px solid #a0a0a0;}
+  
 
 .search-button {
     background-color: #a0a0a0;
     text-emphasis-color: #ffffff;
-    box-sizing: 100x30px;
+    width:100px;
+    height: 30px;
     border: 0;
     padding: 0;
 }
@@ -100,6 +104,14 @@ section {
     padding-left: 0;
     width: 575px;
     margin-top: 10px;
+}
+
+.nav-list li a {
+    font-size:16px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 0.2px;
+    ;
 }
     
     .btn {
@@ -149,10 +161,17 @@ section {
 margin-left: auto;
 }
 .account {
-padding:15px, #364147, 18px;
+text-align: right;
+padding: 15px;
+color:364147;
+font-size: 18px;
 }
+.account a { font-size: 14px;}
+
 .profile-pic{
-    size: 60x60;
+    width: 60px;
+    height:60px; } 
+.profile-pic img{
     border-radius: 100px;
     max-width: 100%;
 }
