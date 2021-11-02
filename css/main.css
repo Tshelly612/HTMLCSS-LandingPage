@@ -36,15 +36,74 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0;
 }
 
-.container { margin: 0 auto; max-width: 1170px; }
-section { display: flex; }
+.container {
+    margin: 0 auto;
+    max-width: 1170px;
+}
 
-.flex { display: flex; }
-.flex-column { flex-direction: column; }
-.flex-one { flex: 1; }
-.align-center { align-items: center; }
-.center { justify-content: center; }
-.space-between { justify-content: space-between; }
+section {
+    display: flex;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.flex-one {
+    flex: 1;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.center {
+    justify-content: center;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.header-nav {
+    border-bottom: 1px;
+    border-color: #a0a0a0;
+}
+
+.brand {
+    size: 170x80px;
+    margin-left: -15px;
+    margin-right: 60px;
+}
+
+.logo {
+    max-width: 100% height auto;
+}
+
+.search-box {
+    box-sizing: 330x30px padding 6px 6px 12px 12px;
+    border-color: #a0a0a0;
+}
+
+.search-button {
+    background-color: #a0a0a0;
+    text-emphasis-color: #ffffff;
+    box-sizing: 100x30px;
+    border: 0;
+    padding: 0;
+}
+.nav-list{
+    padding-left: 0;
+    width: 575px;
+    margin-top: 10px;
+}
+.nav-list-li-a
+    {16px uppercase 700 0.2px;}
+
 
 .btn {
     cursor: pointer;
@@ -53,19 +112,53 @@ section { display: flex; }
     line-height: 1.4;
     border-radius: 3px;
 }
-.btn-default { color: #ffffff; background-color: #faa541; }
-.btn-primary { color: #ffffff; background-color: #364147; }
+
+.btn-default {
+    color: #ffffff;
+    background-color: #faa541;
+}
+
+.btn-primary {
+    color: #ffffff;
+    background-color: #364147;
+}
 
 .form-control {
-    display: block; 
+    display: block;
     padding: 6px 12px;
     line-height: 1.4;
-    color: #8598a2; 
+    color: #8598a2;
     border: 1px solid #a0a0a0;
 }
 
-.text-light { font-size: 30px; color: #A0A0A0; }
-.text-secondary { font-size: 30px; color: #faa541; }
-.text-primary { font-size: 16px; color: #364147; }
+.text-light {
+    font-size: 30px;
+    color: #A0A0A0;
+}
 
+.text-secondary {
+    font-size: 30px;
+    color: #faa541;
+}
+
+.text-primary {
+    font-size: 16px;
+    color: #364147;
+
+    
+}
+
+.profile {
+margin-left: auto;
+}
+.account {
+padding:15px, #364147, 18px;
+}
+.profile-pic{
+    size: 60x60;
+    border-radius: 100px;
+    max-width: 100%;
+}
+        
+}
 /***************************************/
