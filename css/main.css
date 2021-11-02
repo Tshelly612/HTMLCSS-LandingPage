@@ -101,11 +101,8 @@ section {
     width: 575px;
     margin-top: 10px;
 }
-.nav-list-li-a
-    {16px uppercase 700 0.2px;}
-
-
-.btn {
+    
+    .btn {
     cursor: pointer;
     border: 0;
     padding: 6px 12px;
@@ -160,5 +157,5 @@ padding:15px, #364147, 18px;
     max-width: 100%;
 }
         
-}
+
 /***************************************/
